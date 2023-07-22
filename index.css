@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: url("https://media.npr.org/assets/img/2016/11/15/gettyimages-534480043_custom-0f61fb0d9530db017664dd2a3cae37c91078153c.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+  .nav {
+    background: black;
+    height: 70px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .search-container input {
+    height: 43px;
+    width: 600px;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    border: none;
+    font-size: 16px;
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+  .search-container {
+    position: relative;
+  }
+  #search-results {
+    position: absolute;
+    background: #fff;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #e1e1e1;
+    top: 42px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    z-index: 100;
+  }
+  .search-result .hero-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .search-result .hero-info button {
+    margin: 20px 10px;
+    background: #21ba45;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    border: none;
+    padding: 9px 0;
+    border-radius: 4px;
+    padding: 5px;
+  }
+  .search-result {
+    display: flex;
+    margin-bottom: 10px;
+    border: 1px solid lightgray;
+  }
+  .search-result img {
+    height: 150px;
+    width: 100px;
+  }
+  .search-result > div span {
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 600;
+  }
+  
+  .search-container input:focus,
+  .search-container button:focus,
+  .search-result .hero-info button:focus {
+    outline: none;
+  }
+  .search-container button:hover,
+  .search-result .hero-info button:hover {
+    cursor: pointer;
+  }
+  #app-title {
+    color: white;
+    font-weight: 500;
+    font-size: 1.5rem;
+    font-family: monospace;
+  }
+  
+  #fvrt-btn {
+    background: #f2711c;
+    height: 43px;
+    color: #fff;
+    border: none;
+    font-size: 15px;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    position: relative;
+    top: -1px;
+  }
+  
+  #about-app {
+    position: relative;
+    width: 50vw;
+    height: 70vh;
+    left: -2%;
+    top: 5%;
+    font-size: 3.5rem;
+    font-weight: 700;
+    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+  }
